@@ -31,7 +31,6 @@ Feature: Context-based access
   Scenario: Destroying a Child Widget in a closed Parent Widget
     Given a child_widget_in_closed_parent exists
     And I am on the child_widget page
-    And show me the page
     Then I should not see "Delete"
 
   Scenario: Destroy a Child Widget in an open Parent Widget

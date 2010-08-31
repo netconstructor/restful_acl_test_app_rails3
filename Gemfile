@@ -14,6 +14,8 @@ gem 'launchy'
 gem 'factory_girl'
 gem 'rspec-rails', ">= 2.0.0.beta.19"
 
+gem 'restful_acl', :path => "../restful_acl"
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
